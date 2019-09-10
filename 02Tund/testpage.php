@@ -1,5 +1,11 @@
 <?php
   $userName = "Andres Pihl";
+  $fullTimeNow = date ("d.m.Y H:i:s");
+  $hourNow = date ("H");
+  $partOfDay = "hägune aeg.";
+  if($hourNow < 8){
+	$partOfDay = "hommik.";
+  }
 ?>
 <!DOCTYPE html>
 <html>
@@ -29,13 +35,9 @@
   Echo "<H1>".$userName." programmerib veebi</a></H1></div>";
 ?>
 <div align="justify"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce purus justo, ullamcorper sit amet efficitur id, luctus ac neque. Sed facilisis et quam quis sodales. Phasellus ut lacus quam. Fusce non ullamcorper justo. Proin ut lectus ultricies, pellentesque metus quis, mattis purus. Donec faucibus consectetur dictum. Vestibulum ornare orci nec neque mollis porta. Cras et augue hendrerit neque tincidunt rhoncus.</p>
-
 <p>Cras faucibus porttitor blandit. Suspendisse fermentum nibh in diam pharetra fringilla. Nunc tempor ex in odio malesuada congue. Vestibulum lacinia ipsum mi, in pulvinar enim convallis et. Praesent nec est sed magna pharetra pretium id sollicitudin augue. Curabitur vel sem sed tortor posuere dapibus at et orci. Aliquam vulputate varius neque. Donec quis enim imperdiet, maximus nisi eget, eleifend ipsum.</p>
-
 <p>Phasellus nunc lacus, tincidunt ac justo et, pulvinar dignissim nisi. Mauris non aliquam tellus. Praesent feugiat condimentum lorem, a aliquet justo facilisis sit amet. Mauris mattis cursus lobortis. Suspendisse sollicitudin scelerisque nunc, iaculis convallis risus aliquet finibus. Sed pharetra odio eget vulputate dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam pharetra velit quis augue pellentesque dignissim. Mauris pharetra metus vel metus convallis euismod. Vestibulum ac gravida orci, id placerat urna. Nam pretium massa eget turpis consequat, eget consectetur sem consequat. Sed vitae enim in purus scelerisque pulvinar. Vestibulum venenatis ex a ante vestibulum vulputate bibendum at libero. Suspendisse in blandit libero, nec gravida libero. Duis egestas ultrices mi id gravida. Nam non tincidunt diam.</p>
-
 <p>Fusce eget nunc placerat, feugiat purus sed, blandit lorem. Duis sit amet tincidunt ipsum. Praesent et aliquet purus, eget sagittis urna. Mauris venenatis malesuada placerat. Integer quis facilisis nibh, non dapibus nibh. Duis porta, orci et posuere convallis, eros quam eleifend mauris, sed vulputate lacus lectus id lorem. Mauris auctor sapien eu libero aliquet bibendum. Fusce at rutrum orci. Etiam mollis tincidunt sapien ac ullamcorper. Vestibulum in diam porttitor, porta turpis sit amet, pharetra est. Vestibulum pharetra, lacus iaculis efficitur feugiat, lectus dui dignissim mi, a cursus quam urna maximus sem. In ac nisi in felis sodales scelerisque.</p>
-
 <p>Cras sed elementum nunc. Integer hendrerit at orci ac faucibus. Nunc tincidunt vestibulum eros ac rhoncus. Phasellus aliquam eu tortor in congue. In leo lacus, sagittis et dolor at, pharetra pharetra nisl. Sed fermentum laoreet placerat. In sed scelerisque nisl. Integer dapibus lectus mauris, in sollicitudin nulla tempus eget. Quisque bibendum nisi et dolor sodales sagittis. In posuere lectus imperdiet felis sollicitudin, dapibus sodales mauris bibendum. Curabitur mattis ac arcu volutpat blandit. Maecenas ultricies tellus non metus porta, vitae aliquam sem consectetur.</p>
 <p>Praesent blandit nisl laoreet augue condimentum, quis rhoncus sem pharetra. Maecenas lobortis rutrum dui ac sodales. Integer dignissim lectus non arcu fermentum, sed consectetur nunc vulputate. Quisque orci ipsum, malesuada a mollis nec, tincidunt vitae enim. Donec interdum tincidunt magna vel dapibus. Pellentesque non enim ultricies, ultricies dui a, tempus neque. Aenean sollicitudin eros in blandit luctus. Aenean massa leo, scelerisque vel sagittis ac, molestie ut ex. Ut rutrum lacus eget imperdiet interdum. Mauris sed arcu nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum dapibus massa nec condimentum.</p>
 <p>Sed eget urna ut nulla aliquet rhoncus. Proin nec ex euismod, tincidunt erat at, lacinia mi. Nullam non ante eget nunc dictum commodo nec sed magna. Donec vel vulputate sapien, quis viverra lectus. Donec neque erat, ullamcorper sit amet tincidunt tincidunt, vestibulum sed diam. In eget risus vitae metus cursus commodo elementum a eros. Morbi lectus ante, aliquam ut tristique porta, consequat eu diam. Curabitur sit amet rutrum sapien. Donec placerat sapien purus, et porta ligula mattis non. Aliquam tincidunt et massa ut fringilla. Quisque vitae velit libero. Sed ante eros, blandit nec malesuada et, congue quis elit. Aliquam ultrices, libero sed laoreet euismod, enim lorem rutrum orci, ac suscipit erat augue fringilla est. Vestibulum justo lorem, condimentum et metus sit amet, interdum vehicula odio.</p>
@@ -52,5 +54,9 @@
 <p>Nullam dapibus justo quis accumsan aliquet. Aenean nec est urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam luctus varius eros sed iaculis. Phasellus faucibus orci vel tincidunt vulputate. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vestibulum erat at rhoncus consectetur. Integer non magna elit. Donec volutpat lectus vestibulum, tempus metus non, scelerisque urna. Praesent eleifend eleifend pulvinar. Sed ac consequat turpis. Vestibulum sit amet leo turpis. Nunc magna urna, bibendum vitae dui eu, posuere finibus felis. Vivamus non ullamcorper risus.</p>
 <p>Nam aliquet, arcu quis ullamcorper aliquet, elit nisl pharetra turpis, a auctor turpis ante id ante. Aliquam id augue eu est congue venenatis. Mauris vehicula laoreet enim, a luctus ante gravida sed. Donec a condimentum massa. Sed eget quam velit. Proin tincidunt mollis nibh, nec ullamcorper libero dictum a. Etiam condimentum elit lacus, quis ullamcorper massa interdum sed. Ut pretium turpis ut metus dapibus tempor. Pellentesque nec blandit massa. Mauris orci risus, eleifend vitae neque nec, elementum scelerisque risus. Pellentesque sed porttitor urna. Suspendisse non sapien nec velit elementum posuere vitae nec turpis. Mauris convallis odio eu condimentum mollis. Duis tellus mi, dictum non placerat vitae, dapibus id enim. Duis imperdiet volutpat felis, sit amet imperdiet lorem fringilla a.</p>
 <p>Suspendisse lobortis a dolor pharetra commodo. Mauris pharetra mattis metus at condimentum. Proin eget arcu ac ex posuere interdum efficitur eu diam. Maecenas eros arcu, venenatis id est eu, mollis interdum purus. Cras mollis semper erat, nec sagittis eros rhoncus sit amet. Sed quis arcu tincidunt, ornare erat id, aliquet lacus. Ut varius scelerisque mi quis lobortis. Phasellus id dignissim felis, ac malesuada augue. In vehicula finibus consequat. Curabitur in consectetur sapien, sed posuere lacus. Mauris justo turpis, vulputate vel volutpat id, lobortis eu augue. Nam lorem diam, suscipit vel felis sit amet, euismod faucibus ipsum.</p>
-</div></body>
+</div>
+<hr><div align="Right"><?php
+  echo "<p>Leht avati ".$fullTimeNow.", ".$partOfDay."</p>";
+?></div>
+</body>
 </html>
