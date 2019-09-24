@@ -1,4 +1,5 @@
 <?php
+  require("../../../config_vp.php");
   $userName = "Andres Pihl";
   
   $photodir = "../photos/";
@@ -38,10 +39,6 @@
   if($today -> format("%r%a") < $semesterStart -> format("%r%a")) {
 	$semesterInfoHTML = "<p>Semester on läbi.</p>";
   }
-  //<img src="../photos/tlu_terra_600x400_1.jpg" alt="Tallinna Ülikooli Terra õppehoone.">
-  //<img src="../photos/tlu_terra_600x400_2.jpg" alt="Tallinna Ülikooli Terra õppehoone.">
-  //<img src="../photos/tlu_terra_600x400_3.jpg" alt="Tallinna Ülikooli Terra õppehoone.">
-  //foto näitamine lehel
   $fileList = array_slice(scandir($photodir),2);
   $photoList = [];
   foreach ($fileList as $file){
@@ -54,5 +51,15 @@
   //$photoList = ["tlu_terra_600x400_1.jpg","tlu_terra_600x400_2.jpg","tlu_terra_600x400_3.jpg"];//array ehk massiiv
   $photoCount = count($photoList);
   $photoNum = mt_rand(0,$photoCount-1);
-  $randomImgHTML = '<img src="'.$photodir.$photoList[$photoNum].'" alt="Juhuslik foto." width="600">';
+  $randomImgHTML = '<img src="'.$photodir.$photoList[$photoNum].'" alt="Rebane." width="600">';
 ?>
+  <style type="text/css">
+			body {
+				font-family: comic-sans;
+				width: 1080px;
+				margin: 20px auto;
+			}
+            h1 {
+                margin-top: 60px;
+            }
+		</style>

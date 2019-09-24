@@ -1,5 +1,5 @@
 <?php
-  require("unified.php");
+  require("common.php");
   require("header.php");
 ?>
 
